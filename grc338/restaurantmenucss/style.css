@@ -20,11 +20,6 @@ h2 {
   color: rgb(94, 96, 122);
 }
 
-.menuText {
-  background-color: rgb(104, 158, 176);
-  color: rgb(247, 247, 247);
-  padding: 0.3em;
-}
 
 h3 {
     background-color: #ffffff;
@@ -34,6 +29,12 @@ h3 {
 
 h4 {
     color: rgb(0, 58, 125);
+}
+
+.menuText {
+  background-color: rgb(104, 158, 176);
+  color: rgb(247, 247, 247);
+  padding: 0.3em;
 }
 
 .descriptor {
