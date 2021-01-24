@@ -19,5 +19,28 @@ h2 {
   font-size: 1.5em;
   background-color: rgb(104, 158, 176);
   padding: 0.3em;
+}
 
+h3 {
+    background-color: #ffffff;
+    padding: 0.5em 1em 0.5em 1em;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: rgb(0, 58, 125);
+}
+
+.descriptor {
+    padding-left: 2em;
+    color: rgb(122, 134, 158);
+}
+
+.price {
+    padding-left: 2em;
+    color: rgb(103, 136, 201);
+}
+
+li {
+    list-style: none;
 }
