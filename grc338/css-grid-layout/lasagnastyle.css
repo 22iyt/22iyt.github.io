@@ -4,85 +4,85 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 
 @import url("https://use.typekit.net/isn7rmu.css");
 
-body {
-    font-family: "sofia-pro", sans-serif;
-}
 
-header {
-    padding: 2em 1em 1em 2em;
-    text-align: center;
+div.container {
+     max-width: 50em;
+     margin: auto;
 }
-
-h1 {
-    font-family: "cardo", serif;
-    font-style: bold;
-    color: rgb(113, 173, 173);
+ main {
+     display: grid;
+     grid-template-columns:50% auto;
 }
-
-h2 {
-    font-family: "sofia-pro", sans-serif;
-    font-size: 1em;
-    color: rgb(72, 73, 74);
-    text-transform: uppercase;
+ body {
+     font-family: "sofia-pro", sans-serif;
 }
-
-h3 {
-    font-family: "cardo", serif;
-    font-style: bold;
-    font-size: 1.5em;
-    border-bottom: double rgb(159, 188, 199);
+ header {
+     padding: 2em 1em 0em 2em;
+     text-align: left;
 }
-
-figure {
-    background-color: rgb(119, 135, 135);
-    padding: 0.5em;
+ h1 {
+     font-family: "cardo", serif;
+     font-style: bold;
+     color: rgb(113, 173, 173);
 }
-
-img {
-    width: 100%; /*Please leave this line.*/
+ h2 {
+     font-family: "sofia-pro", sans-serif;
+     font-size: 1em;
+     color: rgb(72, 73, 74);
+     text-transform: uppercase;
+     padding-top: 0.5em;
 }
-
-figcaption {
-    padding: 1em;
-    color: #ffffff;
-    font-family: "sofia-pro", sans-serif;
-    font-size: 0.75em;
+ h3 {
+     font-family: "cardo", serif;
+     font-style: bold;
+     font-size: 1.5em;
+     border-bottom: double rgb(159, 188, 199);
 }
-
-.ingredients {
-    margin: 3em;
-    padding: 2em;
+ figure {
+     grid-template-columns: 3fr 1fr;
+     grid-template-rows: 1fr;
+    /* background-color: rgb(119, 135, 135); */
+     padding: 0.5em;
+     margin: 1.5em;
+     display: grid;
 }
-
-.ingredients ul {
-    list-style: none;
-    padding: 0;
+ img {
+     width: 100%;
+    /*Please leave this line.*/
 }
-
-.ingredients li {
-    margin: 1em auto;
+ figcaption {
+     padding: 1em;
+     color: #fafcff;
+     background-color: rgb(119, 135, 135);
+     font-family: "sofia-pro", sans-serif;
+     font-style: italic;
+     font-size: 0.9em;
 }
-
-.directions {
-    margin: 3em;
-    padding: 1em;
+ .ingredients {
+     margin: 1.5em;
+     padding: 0.5em;
 }
-
-.directions li {
-    margin: 0.7em auto;
-    padding: 0.5em;
+ .ingredients ul {
+     list-style: none;
+     padding: 0;
 }
-
-.directions ol {
-    padding: 0em 0em 1em 1em;
+ .ingredients li {
+     margin: 1em auto;
 }
-
-footer {
-    text-align: center;
-    padding: 1em;
-    font-style: italic;
-    color: rgb(247, 247, 247);
-    background-color: rgb(120, 175, 194);
+ .directions {
+     margin: 1.5em;
+     padding: 0.5em;
 }
-
-/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
+ .directions li {
+     margin: 0.7em auto;
+     padding: 0.5em;
+}
+ .directions ol {
+     padding: 0em 0em 1em 1em;
+}
+ footer {
+     text-align: center;
+     padding: 1em;
+     color: rgb(247, 247, 247);
+     background-color: rgb(120, 175, 194);
+    margin: 0em 2em 0em 2em;
