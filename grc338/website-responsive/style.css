@@ -14,15 +14,16 @@
  h1, h2{
      font-family: sofia-pro-soft, sans-serif;
      text-transform: uppercase;
-     color: #d6cc87;
 }
  h1{
-     font-size: 2.2em;
+     font-size: 2.5em;
+     color: #debb49;
 }
  h2 {
      font-style: normal;
      font-weight: 600;
-     font-size: 1.5em;
+     font-size: 2em;
+     color: #d6cc87;
 }
  main, article {
      margin: 2em;
@@ -133,5 +134,4 @@
          padding: 0 0 0 1em;
     }
 }
-/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
  
